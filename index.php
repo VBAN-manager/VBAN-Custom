@@ -9,27 +9,27 @@ $page = "plugins-VBAN-Custom";
             <form role="form" action="plugin_action.php" method="get">
                 <div class="form-group">
                     <input type="hidden" name="name" value="VBAN-Custom" />
-                    <input type="hidden" name="args" value="/home/pi/qlc.sh" />
+                    <input type="hidden" name="args" value="/my/script/here.sh" />
                     <button type="submit" class="btn btn-success">
-                        QLC
+                        Command #1 (script)
                     </button>
                 </div>
             </form>
             <form role="form" action="plugin_action.php" method="get">
                 <div class="form-group">
                     <input type="hidden" name="name" value="VBAN-Custom" />
-                    <input type="hidden" name="args" value="xvfb-run qlcplus -w -p -o /home/pi/Vidéos/Balade/videos.qxw" />
+                    <input type="hidden" name="args" value="command blabla -w -p -o /home/pi/test" />
                     <button type="submit" class="btn btn-success">
-                        QLC Balade des gens heureux
+                        Command #2 (software)
                     </button>
                 </div>
             </form>
             <form role="form" action="plugin_action.php" method="get">
                 <div class="form-group">
                     <input type="hidden" name="name" value="VBAN-Custom" />
-                    <input type="hidden" name="args" value="pkill qlcplus" />
+                    <input type="hidden" name="args" value="pkill test" />
                     <button type="submit" class="btn btn-success">
-                        Kill QLC
+                        Command #3 (kill software)
                     </button>
                 </div>
             </form>
